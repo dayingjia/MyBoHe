@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">MyBohe</string>
+
+    <string name="health_foodandsport_morning">早</string>
+    <string name="health_foodandsport_noon">午</string>
+    <string name="health_foodandsport_evening">晚</string>
+    <string name="health_foodandsport_add">加</string>
+    <string name="health_foodandsport_sport">运动</string>
+    <string name="title_search">请输入食物名称</string>
+
+    <string name="bottom_health">健康</string>
+    <string name="bottom_find">发现</string>
+    <string name="bottom_store">商店</string>
+    <string name="bottom_me">我</string>
+
+</resources>

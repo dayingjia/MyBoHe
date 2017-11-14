@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:gravity="center_vertical"
+    android:layout_height="56dp">
+    <LinearLayout
+        android:id="@+id/bottom_health"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/bottom_health_iv"
+            android:src="@drawable/bottom_health_gray"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+        <TextView
+            android:id="@+id/bottom_health_tv"
+            android:text="@string/bottom_health"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/colorGray"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bottom_find"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/bottom_find_iv"
+            android:src="@drawable/bottom_find_gray"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+        <TextView
+            android:id="@+id/bottom_find_tv"
+            android:text="@string/bottom_find"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/colorGray"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/bottom_add"
+        android:layout_width="32dp"
+        android:layout_height="32dp" />
+    <LinearLayout
+        android:id="@+id/bottom_store"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/bottom_store_iv"
+            android:src="@drawable/bottom_store_gray"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+        <TextView
+            android:id="@+id/bottom_store_tv"
+            android:text="@string/bottom_store"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/colorGray"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bottom_me"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/bottom_me_iv"
+            android:src="@drawable/bottom_me_gray"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="24dp"
+            android:layout_height="24dp" />
+        <TextView
+            android:id="@+id/bottom_me_tv"
+            android:text="@string/bottom_me"
+            android:textSize="@dimen/text_size_small"
+            android:textColor="@color/colorGray"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
